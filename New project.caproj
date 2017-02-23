@@ -68,15 +68,36 @@
             <plugin id="TiledBg" />
             <texture original-source="C:\Kasia\Informatyka\Hackathon 2017\tutorials\topdown-shooter\PNG\Hitman 1\hitman1_reload.png" />
         </object-type>
+        <object-type name="Sprite2" sid="6118834792633222">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1217340280302179" speed="5">
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.511628" original-source="C:\Kasia\Informatyka\Hackathon 2017\tutorials\topdown-shooter\PNG\Hitman 1\hitman1_stand.png">
+                        <collision-poly>
+                            <point x="0.181818" y="0.139535" />
+                            <point x="0.484848" y="0" />
+                            <point x="0.727273" y="0.209302" />
+                            <point x="0.878788" y="0.488372" />
+                            <point x="0.727273" y="0.790698" />
+                            <point x="0.484848" y="1" />
+                            <point x="0.181818" y="0.860465" />
+                            <point x="0.0606061" y="0.488372" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Layout 1.xml</layout>
         <layout>Layout 2.xml</layout>
+        <layout>Layout 3.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
         <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
     </event-folder>
     <global-instances />
     <sounds-folder />
